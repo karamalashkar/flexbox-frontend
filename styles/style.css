@@ -2,6 +2,11 @@ body{
     background-color: darkgray;
 }
 
+.all{
+    display: flex;
+    justify-content: center;
+}
+
 .main{
     display: flex;
     width: 60%;
@@ -9,24 +14,9 @@ body{
     flex-direction: column;
 }
 
-.all{
-    display: flex;
-    justify-content: center;
-}
-
-.item{
-    padding: 10px;
-    background-color: blue;
-    justify-content: center;
-}
-
-.grow1{
+.head{
     flex-grow: 0;
     background-color: white;
-}
-
-.grow2{
-    background-color: lightgray;
 }
 
 h1{
@@ -36,24 +26,34 @@ h1{
     font-weight: 900;
 }
 
-.section1{
+.item{
+    padding: 10px;
+    background-color: lightgrey;
+    justify-content: center;
+}
+
+.paragraph{
     display: flex;
-    
+    justify-content: space-between;
 }
 
-.head{
+.paragraph-input{
     width: 50%;
 }
 
-.new{
-    background-color:;
-    width: 50%;
-    padding-left: 5.5%;
-    display: inline-block;
+.phead{
+    padding-left: 10%;
 }
 
-.neww{
-    display: inline-block;
+.section{
+    display: flex;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
 }
 
 h5{
@@ -62,26 +62,22 @@ h5{
     padding-left: 5.5%;
 }
 
-
-.phead{
-    padding-left: 10%;
+p{
+    color: #880808;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-left: 6%;
+    padding-top: 2%;
 }
 
-.grow{
-    padding-right: 15%;
-}
-
-.para{
-    display: flex;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-}
-
-.p1{
+.first{
     width: 50%;
+    padding-left: 5.5%;
+}
+
+.second{
+    width: 50%;
+    padding-right: 5.5%;        
 }
 
 label{
@@ -90,29 +86,8 @@ label{
     font-weight: 540;
     display: block;
     cursor: pointer;
+    padding-top: 3%;
 }
-
-span{
-    width: 50%;
-}
-
-.center{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.grow{
-    flex-grow: 1;
-}
-
-p{
-    color: #880808;
-    font-family: sans-serif;
-    font-weight: 600;
-    padding-left: 6%;
-}
-
 
 input[type=date]{
     width: 80%;
@@ -128,14 +103,15 @@ input[type=radio]{
     padding-top: 10%;
 }
 
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .text{
     width: 100%;
     height: 250px;
-}
-
-::placeholder{
-    padding-top: 5px;
     padding-left: 5px;
     font-size: 18px;
     font-weight: 540;
@@ -144,34 +120,28 @@ input[type=radio]{
 input[type=submit]{
     border: none;
     border-radius: 5px;
-    background-color: red;
     width: 100%;
     height: 50px;
     color: white;
     font-size: 18px;
     cursor: pointer;
-    text-align: center;
-    /*background-color: #414B56;*/
     background: linear-gradient(black,grey);
 }
 
-.foot{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+::placeholder{
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 540;
 }
 
-.cent1{
+.item-foot-text{
     width: 88%;
 }
 
-.cent2{
-    padding-top: 5%;
+.item-foot-submit{
+    padding-top: 4%;
     width: 30%;
 }
 
-.pa{
-    width: 100%;
-}
 
 
