@@ -1,0 +1,177 @@
+body{
+    background-color: darkgray;
+}
+
+.main{
+    display: flex;
+    width: 60%;
+    height: auto;
+    flex-direction: column;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    padding: 10px;
+    background-color: blue;
+    justify-content: center;
+}
+
+.grow1{
+    flex-grow: 0;
+    background-color: white;
+}
+
+.grow2{
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+    color: #880808;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.section1{
+    display: flex;
+    
+}
+
+.head{
+    width: 50%;
+}
+
+.new{
+    background-color:;
+    width: 50%;
+    padding-left: 5.5%;
+    display: inline-block;
+}
+
+.neww{
+    display: inline-block;
+}
+
+h5{
+    color: #808080;
+    font-family: sans-serif;
+    padding-left: 5.5%;
+}
+
+
+.phead{
+    padding-left: 10%;
+}
+
+.grow{
+    padding-right: 15%;
+}
+
+.para{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1{
+    width: 50%;
+}
+
+label{
+    color: #880808;
+    font-family: sans-serif;
+    font-weight: 540;
+    display: block;
+    cursor: pointer;
+}
+
+span{
+    width: 50%;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+p{
+    color: #880808;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-left: 6%;
+}
+
+
+input[type=date]{
+    width: 80%;
+    height: 40px;
+}
+
+input[type=text]{
+    width: 80%;
+    height: 40px;
+}
+
+input[type=radio]{
+    padding-top: 10%;
+}
+
+
+.text{
+    width: 100%;
+    height: 250px;
+}
+
+::placeholder{
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 540;
+}
+
+input[type=submit]{
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    /*background-color: #414B56;*/
+    background: linear-gradient(black,grey);
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cent1{
+    width: 88%;
+}
+
+.cent2{
+    padding-top: 5%;
+    width: 30%;
+}
+
+.pa{
+    width: 100%;
+}
+
+
